@@ -7,7 +7,7 @@ export default function RootLayout({
 }>) {
   return (
     <main>
-      <div className="container">{children}</div>
+      <div className="container my-16">{children}</div>
     </main>
   );
 }
