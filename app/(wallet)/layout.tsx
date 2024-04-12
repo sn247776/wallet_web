@@ -1,3 +1,4 @@
+import WalletBar from "@/components/global/wallet-nav-bar";
 
 
 export default function RootLayout({
@@ -7,6 +8,7 @@ export default function RootLayout({
 }>) {
   return (
     <main>
+      <WalletBar/>
       <div className="container my-16">{children}</div>
     </main>
   );

@@ -1,0 +1,26 @@
+.wallet-bar-main{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 50px;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 100vh;
+    background: hsl(var(--card));
+}
+
+.store-bar-link{
+    padding: 0 10px;
+    border-left: 2px solid transparent;
+
+}
+
+.active-bar-link{
+    padding: 0 10px;
+    color: hsl(var(--primary));
+    transition: 0.3s;
+}
