@@ -4,7 +4,7 @@ import Heading from "@/components/ui/heading";
 import { CircleUserRound } from "lucide-react";
 import React from "react";
 
-export default function Edit() {
+export default function Profile() {
   return (
     <div>
       <Heading level={2}>Edit Profile</Heading>
