@@ -11,7 +11,7 @@ export default function Wallet() {
     <div>
       <Heading level={2}>Wallet</Heading>
 
-      <div className="grid grid-cols-2 pt-8 gap-6">
+      <div className="grid grid-cols-2 pt-8 gap-16">
         <div>
           <div className="grid grid-cols-3 gap-5">
             <div className="bg-card flex items-center justify-center flex-col gap-5 py-10 rounded-lg">

@@ -8,7 +8,7 @@ export default function Withdraw() {
     <div>
               <Heading level={2}>Withdraw</Heading>
 
-<div className="grid grid-cols-2 pt-8 gap-6">
+<div className="grid grid-cols-2 pt-8 gap-16">
 
     <div className='flex gap-3 flex-col'>
         <div className='flex justify-between my-8'>

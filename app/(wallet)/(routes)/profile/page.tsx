@@ -9,7 +9,7 @@ export default function Profile() {
     <div>
       <Heading level={2}>Edit Profile</Heading>
 
-      <div className="grid grid-cols-2 pt-8 gap-6">
+      <div className="grid grid-cols-2 pt-8 gap-16">
         <div className="flex gap-3 flex-col">
 
             <div className="flex flex-col gap-3 border-b-2 p-2">
